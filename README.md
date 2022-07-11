@@ -1,23 +1,29 @@
-# JollyWizard.Quantower.IndicatorDeploy
-A project to help deploy indicator projects for the Quantower platform.
+# JollyWizard.Quantower.Indicators.VolumeDeltaPack
+A pack of Volume Delta related indicators for the quantower platform.
 
 ## Overview
 
-This project builds an installer system for Quantower Indicator Projects.
+This is an indicator pack for Quantower.
 
-As a dependency it enables build tasks:
+Indicators Included:
 
-* Automatically detect running Quantower instances and include their assemblies as references.
-  * This prevents hardcoding local paths into repository like Quantower Algo.
-* Automatically deploy builds to the current Quantower instance.
-* Package Builds with the installer for distribution.
+* Singular Volume Delta
+* Cumulative Volume Delta
 
 ## Usage
 
 Main documentation will be updated when the uploading of sibling projects is complete.
 
-## Required
+## Installation
+
+If you build the project with VS2022, it should install the indicator.
+
+Project output builds a zipped folder with the installer from [JollyWizard.Quantower.IndicatorDeploy.exe](https://github.com/JollyWizard/JollyWizard.Quantower.IndicatorDeploy).
+
+This installable pack will be available on the github releases page. Upnack it and run the `.exe`. Quantower must be running on the first install, or you must have nerd powers and read the other directions.
+
+## Dependency
 
 For the installer, Dotnet 4.8 is required. It is the same version used by Quantower Algo project templates, so it is should be bundled with Quantower.
 
-For development tools, it currently requires either Quantower to be running or that the `QuantowerRoot` environment variable is set to the Quantower folder with `Start.lnk`.
+The developer dependencies are installed through nuget and you do not need any Visual Studio extensions.
