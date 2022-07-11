@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup Label="Meta">
+    <Company>Jolly Wizard</Company>
+  </PropertyGroup>
+    
+  <PropertyGroup Label="Build Options">
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Platforms>AnyCPU;x64</Platforms>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Indicator Project Settings">
+    <Indicator_Defaults>true</Indicator_Defaults>
+  </PropertyGroup>
+ 
+  <ItemGroup Label="Add Installer Config File">
+    <Content Include="deploy.ini" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+
+  <ItemGroup Label="Dependencies">
+    <PackageReference Include="JollyWizard.Quantower.IndicatorDeploy" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
