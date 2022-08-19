@@ -16,11 +16,24 @@ Main documentation will be updated when the uploading of sibling projects is com
 
 ## Installation
 
+### Release
+
+Git the current release `.zip` from [github releases](https://github.com/JollyWizard/JollyWizard.Quantower.Indicators.VolumeDeltaPack/releases).
+
+Unpack the release and look for the installer `.exe` ([JollyWizard.Quantower.IndicatorDeploy.exe](https://github.com/JollyWizard/JollyWizard.Quantower.IndicatorDeploy)).
+
+Run the installer and `enter` through the prompts. (Less nerdy version in the future).
+
+* Quantower must be running on the first install, or you must have nerd powers and read the other directions.
+* `Run as Administrator` may be required. Depends on Quantower install location and you windows setup.
+
+### Dev Build
+
 If you build the project with VS2022, it should install the indicator.
 
-Project output builds a zipped folder with the installer from [JollyWizard.Quantower.IndicatorDeploy.exe](https://github.com/JollyWizard/JollyWizard.Quantower.IndicatorDeploy).
+## Manual Install
 
-This installable pack will be available on the github releases page. Upnack it and run the `.exe`. Quantower must be running on the first install, or you must have nerd powers and read the other directions.
+You are looking for the `{Quantower Folder}\Settings\Scripts\Indicators` folder. Anything you put in there it will autodetect if it is a valid indicator with all it's `.dll` parts. 
 
 ## Dependency
 
