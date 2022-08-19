@@ -25,7 +25,7 @@ Unpack the release and look for the installer `.exe` ([JollyWizard.Quantower.Ind
 Run the installer and `enter` through the prompts. (Less nerdy version in the future).
 
 * Quantower must be running on the first install, or you must have nerd powers and read the other directions.
-* `Run as Administrator` may be required. Depends on Quantower install location and you windows setup.
+* `Run as Administrator` may be required. Depends on Quantower install location and your windows setup.
 
 ### Dev Build
 
