@@ -3,6 +3,8 @@ A pack of Volume Delta related indicators for the quantower platform.
 
 # Currently Broken. My Quantower repos have not been updated to work with quantower since they upgraded to modern .NET
 
+Hope to fix soon.  Thanks for your interest.
+
 ## Overview
 
 This is an indicator pack for Quantower.
